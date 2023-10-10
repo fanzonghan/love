@@ -15,7 +15,7 @@
 </head>
 
 <body>
-     <!-- 标题板块 -->
+    <!-- 标题板块 -->
     <div class="title">
         <p id="fzhdwj"></p>
     </div>
@@ -32,6 +32,8 @@
                         <p>这个页面藏得这么深</p>
                         <p>应该没人会发现吧嘿嘿。纪念一下~</p>
                         <span class="right">往右划动 →</span>
+                        <p><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=298 height=52
+                            src="https://music.163.com/outchain/player?type=2&id=1818820553&auto=1&height=32"></iframe></p>
                     </div>
                 </div>
                 <div class="swiper-slide">
@@ -71,7 +73,8 @@
                         <p class="catText">挨打 ↑</p>
                         <p>你要是看见这个页面了，就不要不识好歹。</p>
                         <p>毕竟咱也是数一数二的大帅B</p>
-                        <p style="font-size: 14px;">给哥个面子，以后开心一点，<a style="color: red;font-size: 16px;">不要老是胡思乱想。哥会一直一直爱你...永远...</a></p>
+                        <p style="font-size: 14px;">给哥个面子，以后开心一点，<a
+                                style="color: red;font-size: 16px;">不要老是胡思乱想。哥会一直一直爱你...永远...</a></p>
                         <b>属于我的<span style="color: pink;">爱哭鬼媳妇</span></b>
                     </div>
                 </div>
@@ -122,11 +125,10 @@
                     &copy; 2023
                     <a>范宗涵 && 董文静</a>
                 </p>
-                <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=298 height=52 src="https://music.163.com/outchain/player?type=2&id=1818820553&auto=1&height=32"></iframe>
             </div>
         </div>
     </div>
-    <audio id="vd" src="./bj.mp3" loop="loop" controls="controls" autoplay="autoplay" style="display: none;"></audio>
+    <!-- <audio id="vd" src="./bj.mp3" loop="loop" controls="controls" autoplay="autoplay" style="display: none;"></audio> -->
     <!-- 两只dwj一样的猪 -->
     <div class="xhjIsPig">
         <img src="./images/pig1.gif" alt="pig1" class="pig1">
@@ -163,22 +165,22 @@
             });
         });
     </script>
-    <script type="text/javascript">
-    window.onload = function(){
-             setInterval("toggleSound()",100);
+    <!-- <script type="text/javascript">
+        window.onload = function () {
+            setInterval("toggleSound()", 100);
         }
 
-    function toggleSound() {
-        //获取ID
-        var music = document.getElementById("vd");
-        //判读是否播放  
-        if (music.paused) {
-            music.paused=false;
-            //没有就播放 
-            music.play();
+        function toggleSound() {
+            //获取ID
+            var music = document.getElementById("vd");
+            //判读是否播放  
+            if (music.paused) {
+                music.paused = false;
+                //没有就播放 
+                music.play();
+            }
         }
-        }
-</script>
+    </script> -->
 
 </body>
 
